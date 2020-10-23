@@ -1,0 +1,164 @@
+*{
+	font-family: Philosopher;
+	background-color: #ff8842 ;
+}
+h1{
+	color:white;
+	text-align: center;
+	padding:15px;
+	border-radius: 20px;
+	/*background-color: #963f11;*/
+	background-color: #471a00;
+}
+img{
+	width:250px;
+	border-radius: 30%;
+}
+
+p{
+	
+	margin-left: 100px;
+	margin-right: 100px;		
+}
+
+ul{
+	background-color:  #f95c00;
+	width:auto;
+	float:center;
+	margin-top: 10px;
+}
+li{
+	
+	display: inline-block;
+	padding: 15px 30px;
+	text-align: center;
+}
+a{
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+}
+.container{
+	align-content: center;	
+	display:grid;
+	max-width: 900px;
+	margin: 0 auto;
+	grid-template-columns:repeat(2,1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px,auto);
+}
+
+body{
+	width: 100%;
+}
+
+footer{
+	/*background-color: #173f5f;*/
+	background-color: #f95c00;
+	color:white;
+	text-align: center;
+	padding:10px;
+	border-radius: 10px;
+}
+.back{
+	background-image:url("back.jpg"); ;
+}
+
+.wrapper{
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.github{
+	align-content: center;
+	max-width: 50px;
+}
+.container1{
+	align-content: center;
+	display:grid;
+	max-width: 900px;
+	margin: 0 auto;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px,auto);
+}
+.contact{
+	padding-left: 700px;
+	padding-bottom: 75px;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.stext {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
